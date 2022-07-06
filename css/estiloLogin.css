@@ -1,0 +1,110 @@
+body{
+	background-color: #428bca;
+}
+#alinhamento{
+	
+	width: 501px;
+	height: 501px;
+	margin-left: -251px;
+	margin-top: -251px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.container {
+    background-color: #E8E8E8;
+    border-radius:10px;
+    padding: 25px;
+    box-shadow: 10px 10px 20px #888888;
+}
+p{
+	margin-top: 0px;
+	color: #428bca;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+}
+a.naotenhocad{
+	color: #428bca;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bolder;
+	position: relative;
+	right: 0%;
+	top: 6.7%;
+}
+a.esquecisenha{
+	color: #428bca;
+	font-size: 10px;
+	text-align: right;
+	font-weight: bolder;
+	position: relative;
+	left: 52%;
+	top: 6.7%;
+}
+input.btnLogin{
+	background-color: #FFFAFA;
+	height: 70px;
+	width: 200px;
+	border: 0px;
+	font-variant-caps: all-small-caps;
+	font-size: 20px;
+	color: #428bca;
+	border-radius:4px;
+}
+form input[type="reset"]{
+	background-color: #FFFAFA;
+	height: 70px;
+	width: 200px;
+	border: 0px;
+	position: relative;
+	left: 10%;
+	top: 61%;
+	font-variant-caps: all-small-caps;
+	font-size: 20px;
+	color: #428bca;
+	border-radius:4px;
+}
+
+form input.senha{
+	background-color: #FFFAFA;
+	height: 40px;
+	width: 450px;
+	border-radius:4px;		
+}
+form input[type="text"] {
+    background-color: #FFFAFA;
+    border: 0px solid;
+    font-size: 18px;
+    color: #428bca;
+    height: 40px;
+	width: 450px;
+	border-radius:4px;
+ 
+}
+form input[type="password"] {
+    background-color: #FFFAFA;
+    border: 0px solid;
+    font-size: 18px;
+    color: #428bca;
+    
+}
+input[type=text]:hover{ 
+         border:1px solid #428bca;
+}
+input[type=password]:hover{ 
+         border:1px solid #428bca;
+}
+input[type=submit]:hover{ 
+         border:1px solid #428bca;
+}
+input[type=reset]:hover{ 
+         border:1px solid #428bca;
+}
+a:link, a:visited {
+	text-decoration: none
+}
+a:active {
+	text-decoration: none
+	}

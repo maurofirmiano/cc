@@ -1,0 +1,80 @@
+body{
+	background-color: #5cb85c;
+}
+#alinhamento{
+	
+	width: 501px;
+	height: 501px;
+	margin-left: -251px;
+	margin-top: -251px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+.container {
+    background-color: #E8E8E8;
+    border-radius:10px;
+    padding: 25px;
+    box-shadow: 10px 10px 20px #888888;
+}
+p{
+	color: #5cb85c;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	top: 5%;
+}
+
+input.btnRec{
+	background-color: #FFFAFA;
+	height: 70px;
+	width: 200px;
+	border: 0px;
+	font-variant-caps: all-small-caps;
+	font-size: 20px;
+	color: #5cb85c;
+	border-radius:4px;
+}
+form input[type="reset"]{
+	background-color: #FFFAFA;
+	height: 70px;
+	width: 200px;
+	border: 0px;
+	position: relative;
+	left: 9%;
+	top: 61%;
+	font-variant-caps: all-small-caps;
+	font-size: 20px;
+	color: #5cb85c;
+	border-radius:4px;
+}
+form input[type="text"] {
+    background-color: #FFFAFA;
+    border: 0px solid;
+    font-size: 18px;
+    color: #5cb85c;
+	height: 40px;
+	width: 450px;
+	border-radius:4px;
+  
+}
+
+input[type=text]:hover{ 
+         border:1px solid #5cb85c;
+}
+input[type=password]:hover{ 
+         border:1px solid #5cb85c;
+}
+input[type=submit]:hover{ 
+         border:1px solid #5cb85c;
+}
+input[type=reset]:hover{ 
+         border:1px solid #5cb85c;
+}
+a:link, a:visited {
+	text-decoration: none
+}
+a:active {
+	text-decoration: none
+	}

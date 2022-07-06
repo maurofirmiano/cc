@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Consumo Consciente de Água</title>
+  <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+<script>
+$(function() {
+   setTime();
+   function setTime() {
+      
+      setTimeout(setTime, 3000);
+      $("#setTime").html();
+   }
+ });
+</script>
+
+    <!--Minhas configuracoes css-->
+    <link rel="stylesheet" type="text/css" href=""> 
+<style>
+  body{
+    background-image: url(https://i2.wp.com/www.paraibaradioblog.com/wp-content/uploads/2017/10/Foto1-194.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .navbar-inverse {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: 0px;
+}
+.panel-default{
+  background-color: rgba(255, 250, 250, 0.8);
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border: 0px;
+}
+.panel-heading{
+  
+  border-top-right-radius: 100px;
+ 
+  border-top-left-radius: 100px;
+  
+}
+.panel-footer{
+  
+  border-bottom-right-radius: 100px;
+ 
+  border-bottom-left-radius: 100px;
+  
+}
+</style>
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand"><span class="glyphicon glyphicon-user"></span> <?php echo $sessao ?></a>
+
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                               
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href=#><span class="glyphicon glyphicon-dashboard"></span> Consumo </a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-cog"></span> Configuração</a></li>
+        <li><a href="logout.php"><span class="glyphicon glyphicon-off"></span> Sair</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">    
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-default">
+        
+        <div class="panel-heading"><b><center>VAZÃO</center></b></div>
+        <div class="panel-body" >
+         <h4><center> 
+         <div id="setTime">L/min</div>
+         </center></h4>
+        </div>
+        <div class="panel-footer">Status: <?php if (isset($_GET['st17'])) { echo $_GET['st17']; }if (isset($_GET['st18'])) { echo $_GET['st18'];}?></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-default" >
+        <div class="panel-heading"><b><center>TOTAL DE LITROS</center></b></div>
+        <div class="panel-body">
+          <h4><center> L </center></h4>
+        </div>
+        <div class="panel-footer">Status: <?php if (isset($_GET['st19'])) { echo $_GET['st19']; }?></div>
+      </div>
+    </div>
+    <div class="col-sm-4"> 
+      <div class="panel panel-default" >
+        <div class="panel-heading"><b><center>VALOR GASTO</center></b></div>
+        <div class="panel-body">
+          <h4><center> R$ </center></h4>
+        </div>
+        <div class="panel-footer">Status:</div>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+
+  </div>
+</div><br><br>    
+
+
+</div>
+</div>
+</div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,66 @@
+body{
+	background-color: #d9534f;
+}
+#alinhamento{
+	
+	width: 500px;
+	height: 500px;
+	margin-left: -250px;
+	margin-top: -250px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+p{
+	color: #FFFAFA;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bolder;
+	position: relative;
+	right: 6%;
+	top: 5%;
+}
+input.btnCriar{
+	background-color: #FFFAFA;
+	height: 70px;
+	width: 200px;
+	border: 0px;
+	font-variant-caps: all-small-caps;
+	font-size: 20px;
+	color: #d9534f;
+	border-radius:4px;
+}
+form input[type="reset"]{
+	background-color: #FFFAFA;
+	height: 70px;
+	width: 200px;
+	border: 0px;
+	position: relative;
+	left: 9%;
+	top: 61%;
+	font-variant-caps: all-small-caps;
+	font-size: 20px;
+	color:  #d9534f;
+	border-radius:4px;
+}
+form input[type="text"] {
+    background-color: #FFFAFA;
+    border: 1px solid;
+    font-size: 18px;
+    color: #d9534f;
+    background-color: #FFFAFA;
+	height: 40px;
+	width: 450px;
+	border: 1px;
+	border-radius:4px;
+    font-variant-caps: all-small-caps;
+}
+input[type=text]:hover{ 
+         border:1px solid #990000;
+}
+input[type=submit]:hover{ 
+         border:1px solid #990000;
+}
+input[type=reset]:hover{ 
+         border:1px solid #990000;
+}        
